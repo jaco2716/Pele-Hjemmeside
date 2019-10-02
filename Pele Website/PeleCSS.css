@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 255, 255);
+  
+    
+}
+.lesson-image {
+    position: relative;            
+    min-width: 180px;
+    box-shadow: 0px 0px 10px;
+    width: 80%;
+}
+p.small-lineHeight{
+    line-height: 0.8;
+    font-size: 2vw;
+    color: white;
+}
+.center-text{
+    display:block;
+    text-align:center;
+}
+.button {
+    background-color: rgb(160, 160, 160); 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0vw 1vw;
+    width: 20vw;
+    height: 4vw;
+    min-height: 30px;
+    border-radius: 0px;
+    font-family: Helvetica;
+    font-size: 2vw;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 0 5px;
+}
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
